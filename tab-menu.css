@@ -1,0 +1,26 @@
+.tab-menu__menu-container {
+  display: flex;
+  overflow: auto;
+  border-bottom: 1px solid #ebeeee;
+}
+
+.tab-menu__btn {
+  font-family: inherit;
+  font-size: 1.4rem;
+  color: inherit;
+  padding: 1.2rem;
+  background-color: transparent;
+  border: none;
+  text-align: start;
+  border-bottom: 0.8rem solid transparent;
+  cursor: pointer;
+}
+
+.tab-menu__btn--active {
+  border-bottom-color: #333;
+}
+
+.tab-menu__card.card {
+  margin-top: 0;
+  margin-bottom: 0;
+}

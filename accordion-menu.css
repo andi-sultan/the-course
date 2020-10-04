@@ -1,0 +1,24 @@
+.accordion-menu{
+  margin-bottom: 3rem;
+}
+
+.accordion-menu__container {
+  border-top: 1px solid #ebeeee;
+}
+.accordion-menu__container:last-of-type {
+  border-bottom: 1px solid #ebeeee;
+}
+
+.accordion-menu__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.3rem;
+  padding: 1.5rem 1rem 1.5rem 0.5rem;
+  cursor: pointer;
+}
+
+.accordion-menu__card.card {
+  margin-top: 0;
+  margin-bottom: 0;
+}

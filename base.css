@@ -1,0 +1,260 @@
+/*
+=== table of contents ===
+-inputs
+-buttons
+  .btn--link
+  .btn--solid
+  .btn--outline
+-search-bar
+-checkbox
+-radio
+-modifiers
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, Roboto,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #3c3b37;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #59b45d;
+}
+a:active {
+  color: #428545;
+}
+
+/* -inputs */
+.input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding: 0.6rem 1.2rem;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+}
+.input:disabled {
+  background-color: #e9ecef;
+  color: #999;
+}
+
+input[type="file"].input {
+  border: none;
+}
+input[type="file"].input:disabled {
+  background-color: transparent;
+}
+
+textarea.input {
+  resize: vertical;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* -buttons */
+.btn {
+  display: inline-block;
+  text-align: center;
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+.btn.disabled {
+  cursor: not-allowed;
+}
+
+.btn--link:hover {
+  text-decoration: underline;
+}
+
+.btn--solid {
+  background-color: #615f59;
+  border: 1px solid #615f59;
+  color: #fff;
+}
+.btn--solid:hover {
+  background-color: #3c3b37;
+  border: 1px solid #3c3b37;
+}
+.btn--solid.disabled {
+  background-color: #aaa;
+  border: 1px solid #aaa;
+}
+
+.btn--solid--green {
+  border: 1px solid #68d16d;
+  background-color: #68d16d;
+  color: #fff;
+}
+.btn--solid--green:hover {
+  border: 1px solid #59b45d;
+  background-color: #59b45d;
+  color: #fff;
+}
+.btn--solid--green:disabled {
+  border: 1px solid #517e53;
+  background-color: #517e53;
+  color: #ccc;
+}
+
+.btn--outline {
+  border: 1px solid #3c3b37;
+  color: #3c3b37;
+}
+.btn--outline:hover {
+  background-color: #3c3b37;
+  color: #fff;
+}
+.btn--outline.disabled {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  color: #aaa;
+}
+
+/* -search-bar */
+.search-bar {
+  position: relative;
+  display: inline-block;
+}
+.search-bar__input {
+  width: 100%;
+}
+.search-bar__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.search-bar__btn:disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+/* -checkbox */
+/* -radio */
+.checkbox,
+.radio {
+  position: relative;
+}
+
+/* hide real checkbox/radio button */
+.checkbox__input,
+.radio__input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkbox__label,
+.radio__label {
+  margin: 0 0.5em 0 1.4em;
+}
+
+/* checkbox/radio select button */
+.checkbox__label::before,
+.radio__label::before {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-color: #eee;
+  border: 1px solid rgba(97, 95, 89, 0.5);
+  top: 0.23em;
+  left: 0;
+}
+/* checkbox select button */
+.checkbox__label::before {
+  border-radius: 3px;
+}
+/* radio select button */
+.radio__label::before {
+  border-radius: 50%;
+}
+
+.checkbox:hover > .checkbox__input:not(:checked) + .checkbox__label::before,
+.radio:hover > .radio__input:not(:checked) + .radio__label::before {
+  background-color: #ccc;
+}
+
+/* checkbox checked mark */
+.checkbox__input:checked + .checkbox__label::after {
+  content: "";
+  position: absolute;
+  top: 0.25em;
+  left: 0.3em;
+  width: 0.4em;
+  height: 0.75em;
+  border: solid #333;
+  border-width: 0 0.17em 0.17em 0;
+  transform: rotate(45deg);
+}
+
+/* radio checked mark */
+.radio__input:checked + .radio__label::after {
+  content: "";
+  position: absolute;
+  top: 0.44em;
+  left: 0.2em;
+  background-color: #333;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+}
+
+/* disabled checkbox/radio */
+.checkbox__input:disabled + .checkbox__label,
+.radio__input:disabled + .radio__label {
+  color: #aaa;
+}
+/* disabled checkbox/radio select button */
+.checkbox__input:disabled + .checkbox__label::before,
+.checkbox:hover > .checkbox__input:disabled + .checkbox__label::before,
+.radio__input:disabled + .radio__label::before,
+.radio:hover > .radio__input:disabled + .radio__label::before {
+  background-color: #f9f9f9;
+  border: 1px solid rgba(97, 95, 89, 0.3);
+}
+/* disabled checkbox checked mark */
+.checkbox__input:disabled + .checkbox__label::after {
+  border-color: #777;
+}
+/* disabled radio checked mark */
+.radio__input:disabled + .radio__label::after {
+  background-color: #777;
+}

@@ -1,0 +1,72 @@
+.card {
+  margin-bottom: 3rem;
+}
+
+.card__container {
+  overflow: auto;
+  display: flex;
+}
+
+.card__heading,
+.card__item {
+  margin: 1rem 1.5rem 1rem 0;
+}
+
+.card__heading {
+  color: #73726c;
+}
+
+.card__item {
+  border: 1px solid #c2b8b8;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  min-width: 21rem;
+  width: 21rem;
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card__text {
+  padding: 1.2rem;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 1.5rem 0;
+}
+
+.card__instructor {
+  color: #696861;
+  font-size: 1.2rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.card__rating {
+  color: #4e4e48;
+  font-size: 1.2rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.card__star {
+  color: #f8d23b;
+}
+
+.card__price {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.8rem;
+}
+
+.card__original-price {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+}
+
+.card__discounted-price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 90%;
+}

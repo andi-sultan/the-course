@@ -1,0 +1,29 @@
+.selections {
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: minmax(30rem, 40%) minmax(40rem, 60%);
+  column-gap: 2rem;
+}
+
+.selections__text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+  padding: 4rem;
+}
+
+.selections__title {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .selections {
+    grid-template-columns: 100%;
+  }
+
+  .selections__text-box {
+    margin-bottom: 3rem;
+  }
+}

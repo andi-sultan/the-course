@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="../fontawesome-free-5.13.1-web/css/all.min.css">
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./hero.css">
+  <link rel="stylesheet" href="./navbar.css">
+  <link rel="stylesheet" href="./value-props.css">
+  <link rel="stylesheet" href="./cards.css">
+  <link rel="stylesheet" href="./selections.css">
+  <link rel="stylesheet" href="./tab-menu.css">
+  <link rel="stylesheet" href="./accordion-menu.css">
+  <link rel="stylesheet" href="./value-props.css">
+  <link rel="stylesheet" href="./recommendations.css">
+  <link rel="stylesheet" href="./categories.css">
+  <link rel="stylesheet" href="./testimonials.css">
+  <link rel="stylesheet" href="./business.css">
+  <link rel="stylesheet" href="./companies.css">
+  <link rel="stylesheet" href="./modifiers.css">
+  <link rel="stylesheet" href="./footer.css">
+  <title>Layout</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <nav class="navbar__container container">
+      <div class="navbar__item show-on-mobile show-on-mobile--inherit" href="#"><i class="navbar__icon fas fa-bars"></i>
+      </div>
+      <i class="navbar__item show-on-mobile navbar__icon navbar__icon--dummy fas fa-bars"></i>
+      <div class="navbar__item navbar__logo">
+        <a href="#"><img src="./img/logo.png" alt="the-course"></a>
+      </div>
+      <a class="navbar__item hide-on-mobile" href="#"><i class="navbar__icon fas fa-th"></i>&nbsp;Categories</a>
+      <div class="navbar__item navbar__item--search-bar hide-on-mobile ">
+        <form action="" class="navbar__search-bar search-bar">
+          <input class="navbar__search-bar search-bar__input input" type="text" placeholder="Search...">
+          <button class="navbar__search-bar search-bar__btn" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <a class="navbar__item hide-on-tablet" href="#">Pricing</a>
+      <a class="navbar__item hide-on-tablet" href="#">Be an instructor</a>
+      <a class="navbar__item" href="#"><i class="navbar__icon fas fa-shopping-cart"></i></a>
+      <a class="navbar__item show-on-mobile show-on-mobile--inherit" href="#"><i
+          class="navbar__icon fas fa-search"></i></a>
+      <a class="navbar__btn hide-on-mobile navbar__btn--ml btn btn--outline" href="#">Log In</a>
+      <a class="navbar__btn hide-on-mobile btn btn--solid btn--solid--green" href="#">Sign Up</a>
+    </nav>
+  </div>
+
+  <div class="hero">
+    <div class="hero__container container hide-on-mobile">
+      <div class="hero__item">
+        <h1 class="hero__title">Learn at your own pace</h1>
+        <p class="hero__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ducimus deserunt
+          voluptatibus esse iure recusandae eaque est, maxime reiciendis consequatur.</p>
+        <div class="hero__search-bar">
+          <form action="" class="hero__search-bar search-bar">
+            <input class="hero__search-bar search-bar__input input" type="text"
+              placeholder="What do you want to learn?">
+            <button class="hero__search-bar search-bar__btn" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="value value--compact hide-on-mobile">
+    <div class="container">
+      <div class="value__container">
+        <div class="value__item">
+          <div class="value__img"><i class="far fa-play-circle"></i></div>
+          <div class="value__text">
+            <p class="value__title">Lorem ipsum dolor.</p>
+            <p class="value__desc">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="value__item">
+          <div class="value__img"><i class="far fa-play-circle"></i></div>
+          <div class="value__text">
+            <p class="value__title">Lorem ipsum dolor.</p>
+            <p class="value__desc">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="value__item">
+          <div class="value__img"><i class="far fa-play-circle"></i></div>
+          <div class="value__text">
+            <p class="value__title">Lorem ipsum dolor.</p>
+            <p class="value__desc">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero hero--no-bg show-on-mobile show-on-mobile--inherit">
+    <div class="hero__search-bar container">
+      <form action="" class="hero__search-bar search-bar">
+        <input class="hero__search-bar search-bar__input input" type="text" placeholder="What do you want to learn?">
+        <button class="hero__search-bar search-bar__btn" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <div class="selections container hide-on-mobile">
+    <div class="selections__text-box">
+      <h3 class="selections__title">Large selection consectetur adipisicing elit.</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, dolorum? At
+        molestiae maiores et amet?</p>
+    </div>
+
+    <div class="tab-menu">
+      <div class="tab-menu__menu-container">
+        <a class="tab-menu__btn tab-menu__btn--active">Development</a>
+        <a class="tab-menu__btn">Development</a>
+        <a class="tab-menu__btn">Development</a>
+        <a class="tab-menu__btn">Development</a>
+        <a class="tab-menu__btn">Development</a>
+        <a class="tab-menu__btn">Personal Development</a>
+      </div>
+
+      <div class="tab-menu__content">
+        <div class="tab-menu__card card">
+          <div class="card__container">
+            <div class="card__item">
+              <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+              <div class="card__text">
+                <p class="card__title">Lorem ipsum dolor sit amet...</p>
+                <p class="card__instructor">Dolor Sit Amet</p>
+                <div class="card__rating">
+                  <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                  <b>4.5</b> (120.345)
+                </div>
+                <div class="card__price">
+                  <span class="card__original-price">Rp. 1,200,000</span>
+                  <span class="card__discounted-price">Rp. 154,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+              <div class="card__text">
+                <p class="card__title">Lorem ipsum dolor sit amet...</p>
+                <p class="card__instructor">Dolor Sit Amet</p>
+                <div class="card__rating">
+                  <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                  <b>4.5</b> (120.345)
+                </div>
+                <div class="card__price">
+                  <span class="card__original-price">Rp. 1,200,000</span>
+                  <span class="card__discounted-price">Rp. 154,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+              <div class="card__text">
+                <p class="card__title">Lorem ipsum dolor sit amet...</p>
+                <p class="card__instructor">Dolor Sit Amet</p>
+                <div class="card__rating">
+                  <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                  <b>4.5</b> (120.345)
+                </div>
+                <div class="card__price">
+                  <span class="card__original-price">Rp. 1,200,000</span>
+                  <span class="card__discounted-price">Rp. 154,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+              <div class="card__text">
+                <p class="card__title">Lorem ipsum dolor sit amet...</p>
+                <p class="card__instructor">Dolor Sit Amet</p>
+                <div class="card__rating">
+                  <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                  <b>4.5</b> (120.345)
+                </div>
+                <div class="card__price">
+                  <span class="card__original-price">Rp. 1,200,000</span>
+                  <span class="card__discounted-price">Rp. 154,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+              <div class="card__text">
+                <p class="card__title">Lorem ipsum dolor sit amet...</p>
+                <p class="card__instructor">Dolor Sit Amet</p>
+                <div class="card__rating">
+                  <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                  <b>4.5</b> (120.345)
+                </div>
+                <div class="card__price">
+                  <span class="card__original-price">Rp. 1,200,000</span>
+                  <span class="card__discounted-price">Rp. 154,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+              <div class="card__text">
+                <p class="card__title">Lorem ipsum dolor sit amet...</p>
+                <p class="card__instructor">Dolor Sit Amet</p>
+                <div class="card__rating">
+                  <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                  <b>4.5</b> (120.345)
+                </div>
+                <div class="card__price">
+                  <span class="card__original-price">Rp. 1,200,000</span>
+                  <span class="card__discounted-price">Rp. 154,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+              <div class="card__text">
+                <p class="card__title">Lorem ipsum dolor sit amet...</p>
+                <p class="card__instructor">Dolor Sit Amet</p>
+                <div class="card__rating">
+                  <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                  <b>4.5</b> (120.345)
+                </div>
+                <div class="card__price">
+                  <span class="card__original-price">Rp. 1,200,000</span>
+                  <span class="card__discounted-price">Rp. 154,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="accordion-menu container show-on-mobile show-on-mobile--inherit">
+    <div class="accordion-menu__container">
+      <div class="accordion-menu__btn"><span class="accordion-menu__text">Development</span><i
+          class="fas fa-angle-up"></i></div>
+      <div class="accordion-menu__card card">
+        <div class="card__container">
+          <div class="card__item">
+            <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+            <div class="card__text">
+              <p class="card__title">Lorem ipsum dolor sit amet...</p>
+              <p class="card__instructor">Dolor Sit Amet</p>
+              <div class="card__rating">
+                <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                <b>4.5</b> (120.345)
+              </div>
+              <div class="card__price">
+                <span class="card__original-price">Rp. 1,200,000</span>
+                <span class="card__discounted-price">Rp. 154,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+            <div class="card__text">
+              <p class="card__title">Lorem ipsum dolor sit amet...</p>
+              <p class="card__instructor">Dolor Sit Amet</p>
+              <div class="card__rating">
+                <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                <b>4.5</b> (120.345)
+              </div>
+              <div class="card__price">
+                <span class="card__original-price">Rp. 1,200,000</span>
+                <span class="card__discounted-price">Rp. 154,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+            <div class="card__text">
+              <p class="card__title">Lorem ipsum dolor sit amet...</p>
+              <p class="card__instructor">Dolor Sit Amet</p>
+              <div class="card__rating">
+                <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                <b>4.5</b> (120.345)
+              </div>
+              <div class="card__price">
+                <span class="card__original-price">Rp. 1,200,000</span>
+                <span class="card__discounted-price">Rp. 154,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+            <div class="card__text">
+              <p class="card__title">Lorem ipsum dolor sit amet...</p>
+              <p class="card__instructor">Dolor Sit Amet</p>
+              <div class="card__rating">
+                <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                <b>4.5</b> (120.345)
+              </div>
+              <div class="card__price">
+                <span class="card__original-price">Rp. 1,200,000</span>
+                <span class="card__discounted-price">Rp. 154,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+            <div class="card__text">
+              <p class="card__title">Lorem ipsum dolor sit amet...</p>
+              <p class="card__instructor">Dolor Sit Amet</p>
+              <div class="card__rating">
+                <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                <b>4.5</b> (120.345)
+              </div>
+              <div class="card__price">
+                <span class="card__original-price">Rp. 1,200,000</span>
+                <span class="card__discounted-price">Rp. 154,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+            <div class="card__text">
+              <p class="card__title">Lorem ipsum dolor sit amet...</p>
+              <p class="card__instructor">Dolor Sit Amet</p>
+              <div class="card__rating">
+                <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                <b>4.5</b> (120.345)
+              </div>
+              <div class="card__price">
+                <span class="card__original-price">Rp. 1,200,000</span>
+                <span class="card__discounted-price">Rp. 154,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+            <div class="card__text">
+              <p class="card__title">Lorem ipsum dolor sit amet...</p>
+              <p class="card__instructor">Dolor Sit Amet</p>
+              <div class="card__rating">
+                <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                <b>4.5</b> (120.345)
+              </div>
+              <div class="card__price">
+                <span class="card__original-price">Rp. 1,200,000</span>
+                <span class="card__discounted-price">Rp. 154,000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-menu__container">
+      <div class="accordion-menu__btn"><span class="accordion-menu__text">Development</span><i
+          class="fas fa-angle-down"></i></div>
+      <div class="accordion-menu__card card"></div>
+    </div>
+    <div class="accordion-menu__container">
+      <div class="accordion-menu__btn"><span class="accordion-menu__text">Development</span><i
+          class="fas fa-angle-down"></i></div>
+      <div class="accordion-menu__card card"></div>
+    </div>
+    <div class="accordion-menu__container">
+      <div class="accordion-menu__btn"><span class="accordion-menu__text">Development</span><i
+          class="fas fa-angle-down"></i></div>
+      <div class="accordion-menu__card card"></div>
+    </div>
+    <div class="accordion-menu__container">
+      <div class="accordion-menu__btn"><span class="accordion-menu__text">Development</span><i
+          class="fas fa-angle-down"></i></div>
+      <div class="accordion-menu__card card"></div>
+    </div>
+  </div>
+
+  <div class="value">
+    <div class="container">
+      <h2 class="value__question show-on-mobile show-on-mobile--inherit">Why learn Here?</h2>
+      <div class="value__container">
+        <div class="value__item">
+          <div class="value__img"><i class="far fa-play-circle"></i></div>
+          <div class="value__text">
+            <p class="value__title">Lorem ipsum dolor sit amet.</p>
+            <p class="value__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, impedit!
+            </p>
+          </div>
+        </div>
+        <div class="value__item">
+          <div class="value__img"><i class="far fa-play-circle"></i></div>
+          <div class="value__text">
+            <p class="value__title">Lorem ipsum dolor sit.</p>
+            <p class="value__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ipsum dolorum est
+              odit
+              eum vero?</p>
+          </div>
+        </div>
+        <div class="value__item">
+          <div class="value__img"><i class="far fa-play-circle"></i></div>
+          <div class="value__text">
+            <p class="value__title">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p class="value__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident modi, sint
+              porro
+              magni voluptas vero?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card container">
+    <p class="card__heading">Students are viewing</p>
+    <div class="card__container">
+      <div class="card__item">
+        <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+        <div class="card__text">
+          <p class="card__title">Lorem ipsum dolor sit amet...</p>
+          <p class="card__instructor">Dolor Sit Amet</p>
+          <div class="card__rating">
+            <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+            <b>4.5</b> (120.345)
+          </div>
+          <div class="card__price">
+            <span class="card__original-price">Rp. 1,200,000</span>
+            <span class="card__discounted-price">Rp. 154,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="card__item">
+        <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+        <div class="card__text">
+          <p class="card__title">Lorem ipsum dolor sit amet...</p>
+          <p class="card__instructor">Dolor Sit Amet</p>
+          <div class="card__rating">
+            <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+            <b>4.5</b> (120.345)
+          </div>
+          <div class="card__price">
+            <span class="card__original-price">Rp. 1,200,000</span>
+            <span class="card__discounted-price">Rp. 154,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="card__item">
+        <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+        <div class="card__text">
+          <p class="card__title">Lorem ipsum dolor sit amet...</p>
+          <p class="card__instructor">Dolor Sit Amet</p>
+          <div class="card__rating">
+            <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+            <b>4.5</b> (120.345)
+          </div>
+          <div class="card__price">
+            <span class="card__original-price">Rp. 1,200,000</span>
+            <span class="card__discounted-price">Rp. 154,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="card__item">
+        <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+        <div class="card__text">
+          <p class="card__title">Lorem ipsum dolor sit amet...</p>
+          <p class="card__instructor">Dolor Sit Amet</p>
+          <div class="card__rating">
+            <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+            <b>4.5</b> (120.345)
+          </div>
+          <div class="card__price">
+            <span class="card__original-price">Rp. 1,200,000</span>
+            <span class="card__discounted-price">Rp. 154,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="card__item">
+        <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+        <div class="card__text">
+          <p class="card__title">Lorem ipsum dolor sit amet...</p>
+          <p class="card__instructor">Dolor Sit Amet</p>
+          <div class="card__rating">
+            <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+            <b>4.5</b> (120.345)
+          </div>
+          <div class="card__price">
+            <span class="card__original-price">Rp. 1,200,000</span>
+            <span class="card__discounted-price">Rp. 154,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="card__item">
+        <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+        <div class="card__text">
+          <p class="card__title">Lorem ipsum dolor sit amet...</p>
+          <p class="card__instructor">Dolor Sit Amet</p>
+          <div class="card__rating">
+            <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+            <b>4.5</b> (120.345)
+          </div>
+          <div class="card__price">
+            <span class="card__original-price">Rp. 1,200,000</span>
+            <span class="card__discounted-price">Rp. 154,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="card__item">
+        <div class="card__img"><img src="./img/card-img.jpg" alt="card"></div>
+        <div class="card__text">
+          <p class="card__title">Lorem ipsum dolor sit amet...</p>
+          <p class="card__instructor">Dolor Sit Amet</p>
+          <div class="card__rating">
+            <span class="card__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+            <b>4.5</b> (120.345)
+          </div>
+          <div class="card__price">
+            <span class="card__original-price">Rp. 1,200,000</span>
+            <span class="card__discounted-price">Rp. 154,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="recommendations">
+    <div class="container">
+      <div class="recommendation__row">
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <i class="recommendation__icons far fa-play-circle"></i>
+      </div>
+      <div class="recommendation__row recommendation__row--center">
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <div class="recommendations__text-box">
+          <h3 class="recommendations__title">Get personalized recommendations</h3>
+          <div class="recommendations__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+          <button class="btn btn--solid--green"><b>Get started</b></button>
+        </div>
+        <i class="recommendation__icons far fa-play-circle"></i>
+      </div>
+      <div class="recommendation__row">
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <i class="recommendation__icons far fa-play-circle"></i>
+        <i class="recommendation__icons far fa-play-circle"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="category container">
+    <h2 class="category__title">Top categories</h2>
+    <div class="category__container">
+      <div class="category__item">
+        <div class="category__icon"><i class="fas fa-file-code"></i></div>
+        <p class="category__name">Development</p>
+      </div>
+      <div class="category__item">
+        <div class="category__icon"><i class="fas fa-file-code"></i></div>
+        <p class="category__name">Development</p>
+      </div>
+      <div class="category__item">
+        <div class="category__icon"><i class="fas fa-file-code"></i></div>
+        <p class="category__name">Development</p>
+      </div>
+      <div class="category__item">
+        <div class="category__icon"><i class="fas fa-file-code"></i></div>
+        <p class="category__name">Development</p>
+      </div>
+      <div class="category__item">
+        <div class="category__icon"><i class="fas fa-file-code"></i></div>
+        <p class="category__name">Development</p>
+      </div>
+      <div class="category__item">
+        <div class="category__icon"><i class="fas fa-file-code"></i></div>
+        <p class="category__name">Development</p>
+      </div>
+      <div class="category__item">
+        <div class="category__icon"><i class="fas fa-file-code"></i></div>
+        <p class="category__name">Development</p>
+      </div>
+      <div class="category__item">
+        <div class="category__icon"><i class="fas fa-file-code"></i></div>
+        <p class="category__name">Development</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="value value--testimonials">
+    <div class="container">
+      <h2 class="value__question">Testimonials</h2>
+      <div class="value__container">
+        <div class="value__item">
+          <div class="value__profile">
+            <img class="value__profile-photo hide-on-mobile" src="./img/user.png" alt="photo" class="value__photo">
+            <span class="value__name">John Doe</span>
+          </div>
+          <p class="value__comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore iusto
+            temporibus harum numquam! Cumque incidunt, odit ad dolore doloremque dolorem praesentium deleniti unde
+            sapiente sint inventore quas ipsa aut!
+          </p>
+        </div>
+        <div class="value__item">
+          <div class="value__profile">
+            <img class="value__profile-photo hide-on-mobile" src="./img/user.png" alt="photo" class="value__photo">
+            <span class="value__name">John Doe</span>
+          </div>
+          <p class="value__comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore iusto
+            temporibus harum numquam! Cumque incidunt, odit ad dolore doloremque dolorem praesentium deleniti unde
+            sapiente sint inventore quas ipsa aut!
+          </p>
+        </div>
+        <div class="value__item">
+          <div class="value__profile">
+            <img class="value__profile-photo hide-on-mobile" src="./img/user.png" alt="photo" class="value__photo">
+            <span class="value__name">John Doe</span>
+          </div>
+          <p class="value__comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore iusto
+            temporibus harum numquam! Cumque incidunt, odit ad dolore doloremque dolorem praesentium deleniti unde
+            sapiente sint inventore quas ipsa aut!
+          </p>
+        </div>
+        <div class="value__item">
+          <div class="value__profile">
+            <img class="value__profile-photo hide-on-mobile" src="./img/user.png" alt="photo" class="value__photo">
+            <span class="value__name">John Doe</span>
+          </div>
+          <p class="value__comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore iusto
+            temporibus harum numquam! Cumque incidunt, odit ad dolore doloremque dolorem praesentium deleniti unde
+            sapiente sint inventore quas ipsa aut!
+          </p>
+        </div>
+        <div class="value__item">
+          <div class="value__profile">
+            <img class="value__profile-photo hide-on-mobile" src="./img/user.png" alt="photo" class="value__photo">
+            <span class="value__name">John Doe</span>
+          </div>
+          <p class="value__comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore iusto
+            temporibus harum numquam! Cumque incidunt, odit ad dolore doloremque dolorem praesentium deleniti unde
+            sapiente sint inventore quas ipsa aut!
+          </p>
+        </div>
+        <div class="value__item">
+          <div class="value__profile">
+            <img class="value__profile-photo hide-on-mobile" src="./img/user.png" alt="photo" class="value__photo">
+            <span class="value__name">John Doe</span>
+          </div>
+          <p class="value__comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore iusto
+            temporibus harum numquam! Cumque incidunt, odit ad dolore doloremque dolorem praesentium deleniti unde
+            sapiente sint inventore quas ipsa aut!
+          </p>
+        </div>
+      </div>
+
+      <div class="value__companies companies">
+        <h3 class="companies__text">Companies Lorem ipsum dolor sit amet.</h3>
+        <div class="companies__group">
+          <img src="./img/logo.png" alt="companies" class="companies__img">
+          <img src="./img/logo.png" alt="companies" class="companies__img">
+          <img src="./img/logo.png" alt="companies" class="companies__img">
+          <img src="./img/logo.png" alt="companies" class="companies__img">
+          <img src="./img/logo.png" alt="companies" class="companies__img">
+          <img src="./img/logo.png" alt="companies" class="companies__img">
+        </div>
+      </div>
+
+      <div class="value__business business">
+        <div class="business__container">
+          <h3>Become an instructor</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur vel sunt totam recusandae cum
+            consequuntur facilis nihil blanditiis, mollitia modi similique saepe ullam eveniet corporis praesentium
+            dolor eos sequi id!</p>
+          <button class="btn btn--solid--green"><b>Start teaching today</b></button>
+        </div>
+        <div class="business__container">
+          <h3>Premium</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit delectus aliquid maxime dolores harum
+            temporibus deleniti earum praesentium sint hic.</p>
+          <button class="btn btn--solid--green"><b>Get Premium</b></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div class="footer__cols">
+          <a href="#">The Course for Business</a>
+          <a href="#">Be an instructor</a>
+          <a href="#">Mobile App</a>
+          <a href="#">About us</a>
+        </div>
+        <div class="footer__cols">
+          <a href="#">Contact us</a>
+          <a href="#">Careers</a>
+          <a href="#">Blog</a>
+          <a href="#">Help and Support</a>
+        </div>
+        <div class="footer__cols">
+          <a href="#">Affiliate</a>
+          <a href="#">Sitemap</a>
+          <a href="#">Featured courses</a>
+        </div>
+        <div class="footer__cols">
+          <select class="input">
+            <option value="0">English</option>
+            <option value="1">Bahasa</option>
+          </select>
+        </div>
+      </div>
+      <div class="footer__row">
+        <div class="footer__cols footer__cols--horizontal">
+          <div><img class="footer__img" src="./img/logo.png" alt="the-course" class="logo"></div>
+          <span class="footer__copyright">Copyright © 2020 The Course</span>
+        </div>
+        <div class="footer__cols footer__cols--horizontal">
+          <a href="#">Terms</a>
+          <a href="#">Privacy Policy and Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

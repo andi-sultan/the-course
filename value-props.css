@@ -1,0 +1,161 @@
+.value {
+  background-color: #f8f8f8;
+  margin-bottom: 3rem;
+}
+
+.value__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.value__question {
+  padding: 2rem 0 0;
+}
+
+.value__item {
+  display: flex;
+  border: 1px solid #ebeeee;
+  background-color: #fff;
+  margin: 0 1rem;
+  flex: 1;
+}
+
+.value__item:first-of-type {
+  margin-left: 0;
+}
+.value__item:last-of-type {
+  margin-right: 0;
+}
+
+.value__img {
+  padding: 1.2rem 0.5rem 1.2rem 2rem;
+  font-size: 4rem;
+}
+
+.value__text {
+  padding: 2rem 1rem;
+}
+
+.value__title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
+.value__desc {
+  color: #696861;
+  font-size: 1.4rem;
+}
+
+.value__companies{
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.value__business {
+  padding-bottom: 3rem;
+}
+
+.value--compact {
+  background-color: #333;
+}
+
+.value--compact .value__container {
+  padding: 1rem 0;
+}
+
+.value--compact .value__item {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  max-width: 25rem;
+  justify-content: center;
+}
+
+.value--compact .value__img {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.value--compact .value__text {
+  padding: 1rem;
+}
+
+.value--compact .value__title {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.value--compact .value__desc {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.value--testimonials .value__container {
+  padding-top: 2rem;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.value--testimonials .value__item {
+  flex-direction: column;
+  max-width: 32%;
+  flex: 1 0 auto;
+  padding: 2.5rem 3rem 4rem;
+}
+
+.value--testimonials .value__profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.value--testimonials .value__profile-photo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.value--testimonials .value__name {
+  font-weight: bold;
+}
+
+.value--testimonials .value__comment {
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .value__container {
+    flex-direction: column;
+  }
+
+  .value__item {
+    margin: 0;
+  }
+
+  .value--testimonials .value__item {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+  .value--testimonials .value__item:first-of-type {
+    margin-left: 0;
+  }
+
+  .value--testimonials .value__container {
+    flex-direction: row;
+  }
+
+  .value--testimonials .value__item {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .value--testimonials .value__profile {
+    order: 1;
+    margin-top: 1rem;
+  }
+}

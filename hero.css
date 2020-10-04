@@ -1,0 +1,52 @@
+.hero {
+  background-image: url(./img/hero.jpg);
+  background-size: cover;
+  min-height: 400px;
+  height: 70vh;
+}
+
+.hero__container {
+  position: relative;
+  height: 100%;
+}
+
+.hero__item {
+  position: absolute;
+  top: 30%;
+  width: 50rem;
+}
+
+.hero__title,
+.hero__desc {
+  color: #fff;
+  line-height: 2;
+}
+
+.hero__search-bar {
+  margin-top: 1rem;
+  width: 100%;
+  height: 4rem;
+}
+.hero__search-bar.search-bar__btn {
+  width: initial;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    min-height: 250px;
+    height: 20vh;
+    margin-bottom: 3rem;
+  }
+
+  .hero--no-bg {
+    background-image: none;
+    min-height: initial;
+    height: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero--no-bg .hero__search-bar {
+    margin-top: 0;
+    height: 100%;
+  }
+}

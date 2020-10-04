@@ -1,0 +1,20 @@
+.companies {
+  text-align: center;
+}
+
+.companies__text {
+  color: #73726c;
+  margin-bottom: 3rem;
+}
+
+.companies__group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+img.companies__img {
+  height: 5rem;
+  padding: 0.5rem 1rem;
+}

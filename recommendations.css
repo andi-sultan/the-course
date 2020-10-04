@@ -1,0 +1,39 @@
+.recommendations {
+  background-color: #2f3738;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.recommendation__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+}
+.recommendation__row--center {
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.recommendation__icons {
+  font-size: 3rem;
+}
+
+.recommendations__text-box {
+  text-align: center;
+}
+
+.recommendations__title {
+  margin-bottom: 2rem;
+}
+
+.recommendations__desc {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .recommendation__icons {
+    display: none;
+  }
+}

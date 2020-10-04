@@ -1,0 +1,29 @@
+.show-on-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hide-on-tablet {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    /* font-size: 56.25%; */ /* 9px */
+    font-size: 50%; /* 8px */
+  }
+  
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .show-on-mobile {
+    display: initial;
+  }
+
+  .show-on-mobile--inherit {
+    display: inherit;
+  }
+
+}
