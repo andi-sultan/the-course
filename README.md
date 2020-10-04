@@ -1,2 +1,2 @@
 # the course
- Online Course Site
+ Online Course page inspired by [udemy.com](udemy.com)
